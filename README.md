@@ -1,5 +1,8 @@
 ## Welcome to Brondell01's GitHub Page
 
+It's at this Point that I'll attempt to provide access to the Code Review of my initial Inventory Applicaton artifcat. The purpose of the code review was to indentify issues that needed correction and illustrate planned changes that would meet the requirements of the Capstone course final project. 
+
+For viewing the Code Review see [Selected Artifact initial code review](https://guides.github.com/features/mastering-markdown/).
 
 
 ### Beyond this point You'll find instructions that I'll eventually delete. 
