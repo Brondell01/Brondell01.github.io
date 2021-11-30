@@ -4,12 +4,11 @@ It's at this Point that I'll attempt to provide access to the Code Review of my 
 
 For viewing the Code Review see [Selected Artifact initial code review](https://snhu-my.sharepoint.com/:v:/r/personal/jeff_brondell_snhu_edu/Documents/Milestone%20one%20submission-Jeffrey%20Brondell.mov?csf=1&web=1&e=kyWBbX).
 
-'''ruby
- @NonNull
- @PrimaryKey
- @ColumnInfo(name="id", defaultValue = "0")
- private Integer id;
- '''
+
+###### Lis of items to complete.
+-[x] create new functionality for reporting within application
+-[x] draw conclusions on how new ehnacments meet basic requirements for employement
+-[ } clean up code for readability
 
 ### Beyond this point You'll find instructions that I'll eventually delete. 
 
