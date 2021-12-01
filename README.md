@@ -7,9 +7,17 @@ For viewing the Code Review see [Selected Artifact initial code review](https://
 
 
 ###### Lis of items to complete.
-- [x] create new functionality for reporting within application
-- [x] draw conclusions on how new ehnacments meet basic requirements for employement
-- [ ] clean up code for readability
+- [x]  create new functionality for reporting within application
+- [x]  draw conclusions on how new ehnacments meet basic requirements for employement
+- [ ]  clean up code for readability
+
+
+```
+
+codeToTest(){
+    what the heck?;
+    }
+```
 
 ### Beyond this point You'll find instructions that I'll eventually delete. 
 
