@@ -11,7 +11,10 @@ For viewing the Code Review see [Selected Artifact initial code review](https://
 ###### Lis of items to complete.
 - [x]  create new functionality for reporting within application
 - [x]  draw conclusions on how new ehnacments meet basic requirements for employement
+- [x]  begin to develop IO page/explore functionality
 - [ ]  clean up code for readability
+- [ ]  draft format and wording for showcase
+- [ ]  finalize ePortfolio
 
 ### Reporting page  gif
 
