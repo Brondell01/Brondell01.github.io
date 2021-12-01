@@ -13,11 +13,15 @@ For viewing the Code Review see [Selected Artifact initial code review](https://
 - [x]  draw conclusions on how new ehnacments meet basic requirements for employement
 - [ ]  clean up code for readability
 
-### Reporting page screen shot
+### Reporting page screen shot and gif
 
 for use later in development of page. 
 
 <img width="330" alt="Screen Shot 2021-12-01 at 4 18 34 PM" src="https://user-images.githubusercontent.com/61640483/144323283-9b471113-8ec6-49de-869c-d5dfb9c2edeb.png">
+
+![ReportsSorting](https://user-images.githubusercontent.com/61640483/144323938-4564e83c-3bd9-4ada-b601-683a6aea66fd.gif)
+
+
 
 
 ## Algorithms and Data Structures
