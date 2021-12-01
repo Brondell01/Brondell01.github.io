@@ -12,11 +12,27 @@ For viewing the Code Review see [Selected Artifact initial code review](https://
 - [ ]  clean up code for readability
 
 
-```
 
-codeToTest(){
-    what the heck?;
-    }
+## Algorithms and Data Structures
+
+Section will be used to highlight the code and explain the functionality of the sorting added to the report feature.  For example; let's include and describe the bubble sort here....
+```
+public void bubbleSort(List<History> list, String button){
+            int n = list.size();
+             for (int i = 0; i < n-1; i++){
+                 for (int j = 0; j < n-i-1; j++){
+
+                     if(button == "COUNT"){
+                         if(list.get(j).getCountChange() > list.get(j + 1).getCountChange()) {
+                             if(list.get(j).getId() < list.get(j + 1).getId()) {
+                                 //swaping J and J+1
+                                 History temp = list.get(j);
+                                 list.set(j, list.get(j + 1));
+                                 list.set(j + 1, temp);
+                             }
+                         }
+                     }
+
 ```
 
 ### Beyond this point You'll find instructions that I'll eventually delete. 
