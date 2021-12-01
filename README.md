@@ -16,7 +16,7 @@ For viewing the Code Review see [Selected Artifact initial code review](https://
 ## Algorithms and Data Structures
 
 Section will be used to highlight the code and explain the functionality of the sorting added to the report feature.  For example; let's include and describe the bubble sort here....
-```java
+```javascript
 public void bubbleSort(List<History> list, String button){
             int n = list.size();
              for (int i = 0; i < n-1; i++){
