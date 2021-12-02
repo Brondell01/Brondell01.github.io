@@ -2,12 +2,6 @@
 
 It's at this Point that I'll attempt to provide access to the Code Review of my initial Inventory Applicaton artifcat. The purpose of the code review was to indentify issues that needed correction and illustrate planned changes that would meet the requirements of the Capstone course final project. 
 
-For viewing the Code Review see [Selected Artifact initial code review](https://snhu-my.sharepoint.com/personal/jeff_brondell_snhu_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjeff%5Fbrondell%5Fsnhu%5Fedu%2FDocuments%2FCode%20Review).
-
-[![This is an image](https://user-images.githubusercontent.com/61640483/144322045-40b010b1-8696-4cdf-b4db-8f92b1c2648d.png)](https://snhu-my.sharepoint.com/:v:/r/personal/jeff_brondell_snhu_edu/Documents/Code%20Review/Video%201.mov?csf=1&web=1&e=rOG0xf)
-
-
-
 ###### Lis of items to complete.
 - [x]  create new functionality for reporting within application
 - [x]  draw conclusions on how new ehnacments meet basic requirements for employement
@@ -15,6 +9,17 @@ For viewing the Code Review see [Selected Artifact initial code review](https://
 - [ ]  clean up code for readability
 - [ ]  draft format and wording for showcase
 - [ ]  finalize ePortfolio
+
+###### Code Review
+For this artifact I've taken the time to run through a formal code review process of the Inventory Applicaton. As stated, this applicatino provides a great opportunity to showcase various skills. The code review here will set a functional baseline for the artifact as it stands now. It's important to remember that this artifact was created for a previous course and the planned enhancements I discuss in the review will not only improve the existing code base but expand it's functionality to match the project requirements. 
+
+As you will see in the following videos, a review of the code provides a great opportunity to identify potential improvments and gaps in logic, as well as refocusing attention on some of the smaller details assocaited with creating an application. As this Inventory Application currently stands, you will see a great deal of reduntant code and a lack of clairty in design. The code review video will walk you through my thought process as I identify needed improvements and plan my next steps. 
+
+For viewing the Code Review see [Selected Artifact initial code review](https://snhu-my.sharepoint.com/personal/jeff_brondell_snhu_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjeff%5Fbrondell%5Fsnhu%5Fedu%2FDocuments%2FCode%20Review).
+
+[![This is an image](https://user-images.githubusercontent.com/61640483/144322045-40b010b1-8696-4cdf-b4db-8f92b1c2648d.png)](https://snhu-my.sharepoint.com/:v:/r/personal/jeff_brondell_snhu_edu/Documents/Code%20Review/Video%201.mov?csf=1&web=1&e=rOG0xf)
+
+
 
 ### Reporting page  gif
 
