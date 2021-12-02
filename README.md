@@ -52,7 +52,7 @@ public void bubbleSort(List<History> list, String button){
 
 Section will be used to highlight the code and explain the functionality of the history Database.
 
-###Entity
+### Entity
 ```java
 
 @Entity(tableName = "History")
@@ -78,11 +78,10 @@ public class History implements Serializable {
 
         @ColumnInfo(name="changeDate")
         private Date changeDate;
-
 ```
 
 
-###DAO
+### DAO
 ```java
 @Dao
 public interface HistoryDao {
