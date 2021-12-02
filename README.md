@@ -50,7 +50,7 @@ public void bubbleSort(List<History> list, String button){
 
 ## Database
 
-Section will be used to highlight the code and explain the functionality of the history Database.
+The Room Persistence Librabry has been used within the Inventory Application to allow the use of basic SQL database functions to store and manage historical data. The use of this library requires three different classes to be created and maintained. The "Entity" acts as the model and basic structure of the database table, the "Database" creates the table and links it's creation to the "Entity, and the "DAO" allows us to create SQL like commands to be executed within Java code that control interaction with data in the database. 
 
 ### Entity
 ```java
