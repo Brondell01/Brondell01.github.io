@@ -47,6 +47,37 @@ public void bubbleSort(List<History> list, String button){
 
 ```
 
+
+## Database
+
+Section will be used to highlight the code and explain the functionality of the history Database. 
+
+```javascript
+@Dao
+public interface HistoryDao {
+
+    @Query("SELECT * FROM History")
+    public List<History> getHistory();
+
+    @Query("SELECT MAX(id) FROM History")
+    public int getMaxId();
+
+    @Query("SELECT * FROM History WHERE itemName= :itemName")
+    public List<History> getHistoryByItemName(String itemName);
+
+    @Insert(onConflict = OnConflictStrategy.ABORT)
+    public void insertHistory(History history);
+
+    @Update
+    public void updateHistory(History history);
+
+    @Delete
+    public void deleteHistory(History history);
+
+}
+
+```
+
 ### Beyond this point You'll find instructions that I'll eventually delete. 
 
 You can use the [editor on GitHub](https://github.com/Brondell01/Brondell01.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
