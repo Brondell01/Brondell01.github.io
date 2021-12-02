@@ -11,7 +11,7 @@ It's at this Point that I'll attempt to provide access to the Code Review of my 
 - [ ]  finalize ePortfolio
 
 ### Code Review
-For this artifact I've taken the time to run through a formal code review process of the Inventory Applicaton. As stated, this applicatino provides a great opportunity to showcase various skills. The code review here will set a functional baseline for the artifact as it stands now. It's important to remember that this artifact was created for a previous course and the planned enhancements I discuss in the review will not only improve the existing code base but expand it's functionality to match the project requirements. 
+For this artifact I've taken the time to run through a formal code review process of the Inventory Applicaton. As stated, this application provides a great opportunity to showcase various skills. The code review here will set a functional baseline for the artifact as it stands now. It's important to remember that this artifact was created for a previous course and the planned enhancements I discuss in the review will not only improve the existing code base but expand it's functionality to match the project requirements. 
 
 As you will see in the following videos, a review of the code provides a great opportunity to identify potential improvments and gaps in logic, as well as refocusing attention on some of the smaller details assocaited with creating an application. As this Inventory Application currently stands, you will see a great deal of reduntant code and a lack of clairty in design. The code review video will walk you through my thought process as I identify needed improvements and plan my next steps. 
 
