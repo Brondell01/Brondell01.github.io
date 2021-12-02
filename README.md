@@ -50,8 +50,39 @@ public void bubbleSort(List<History> list, String button){
 
 ## Database
 
-Section will be used to highlight the code and explain the functionality of the history Database. 
+Section will be used to highlight the code and explain the functionality of the history Database.
 
+###Entity
+```java
+
+@Entity(tableName = "History")
+@TypeConverters(DateConverter.class)
+public class History implements Serializable {
+
+
+      @NonNull
+      @PrimaryKey
+      @ColumnInfo(name="id", defaultValue = "0")
+      private Integer id;
+
+        @NonNull
+        @ColumnInfo(name="itemName")
+        private String itemName;
+
+        @NonNull
+        @ColumnInfo(name="countChange")
+        private int countChange;
+
+        @ColumnInfo(name="changeType")
+        private String changeType;
+
+        @ColumnInfo(name="changeDate")
+        private Date changeDate;
+
+```
+
+
+###DAO
 ```java
 @Dao
 public interface HistoryDao {
