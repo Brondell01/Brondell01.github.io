@@ -13,7 +13,7 @@ It's at this Point that I'll attempt to provide access to the Code Review of my 
 ## Code Review
 For this artifact I've taken the time to run through a formal code review process of the Inventory Applicaton. As stated, this application provides a great opportunity to showcase various skills. The code review here will set a functional baseline for the artifact as it stands now. It's important to remember that this artifact was created for a previous course and the planned enhancements I discuss in the review will not only improve the existing code base but expand it's functionality to match the project requirements. 
 
-As you will see in the following videos, a review of the code provides a great opportunity to identify potential improvments and gaps in logic, as well as refocusing attention on some of the smaller details assocaited with creating an application. As this Inventory Application currently stands, you will see a great deal of reduntant code and a lack of clairty in design. The code review video will walk you through my thought process as I identify needed improvements and plan my next steps. 
+As you will see in the following videos, a review of the code provides a great opportunity to identify potential improvments and gaps in logic, as well as refocusing attention on some of the smaller details associated with creating an application. As this Inventory Application currently stands, you will see a great deal of redundant code and a general lack of clairty in design. The code review video will walk you through my thought process as I identify needed improvements and plan my next steps. 
 
 For viewing the Code Review see [Selected Artifact initial code review](https://snhu-my.sharepoint.com/personal/jeff_brondell_snhu_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjeff%5Fbrondell%5Fsnhu%5Fedu%2FDocuments%2FCode%20Review), or start by viewing the following video. 
 
@@ -36,8 +36,41 @@ the following highlights a method that allows us to connect to the reporting pag
         Intent reportsPage = new Intent(this, Reporting.class);
         startActivity(reportsPage);
     }
-
 ```
+
+here we see the method created to allow the list to history list object to load and expand/contract as a table object on the activity
+ ```java
+ 
+   //method that loads the list and creates the data table.
+        public void loadList(List<History> history_list){
+
+            TableLayout report= (TableLayout) findViewById(R.id.table);
+            report.setStretchAllColumns(true);
+            report.bringToFront();
+            report.removeAllViews();
+            for (int i = 0; i < history_list.size(); i++) {
+                TableRow tr = new TableRow(getApplicationContext());
+                TextView c1 = new TextView(getApplicationContext());
+                c1.setText(history_list.get(i).getItemName());
+                TextView c2 = new TextView(getApplicationContext());
+                c2.setText(String.valueOf(history_list.get(i).getCountChange()));
+                TextView c3 = new TextView(getApplicationContext());
+                c3.setText(history_list.get(i).getChangeType());
+                TextView c4 = new TextView(getApplicationContext());
+                c4.setText(String.valueOf(format.format(history_list.get(i).getChangeDate())));
+                int finalI1 = i;
+                TextView empty = new TextView(getApplicationContext());
+                tr.addView(empty);
+                tr.addView(c1);
+                tr.addView(c2);
+                tr.addView(c3);
+                tr.addView(c4);
+
+                report.addView(tr);
+
+              }
+            }
+   ```
 
 ## Algorithms and Data Structures
 
