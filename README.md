@@ -28,7 +28,7 @@ for use later in development of page, can use this screen shot to illustrate rep
 ## Algorithms and Data Structures
 
 Section will be used to highlight the code and explain the functionality of the sorting added to the report feature.  For example; let's include and describe the bubble sort here....
-```javascript
+```java
 public void bubbleSort(List<History> list, String button){
             int n = list.size();
              for (int i = 0; i < n-1; i++){
@@ -52,7 +52,7 @@ public void bubbleSort(List<History> list, String button){
 
 Section will be used to highlight the code and explain the functionality of the history Database. 
 
-```javascript
+```java
 @Dao
 public interface HistoryDao {
 
