@@ -21,14 +21,6 @@ For viewing the Code Review see [Selected Artifact initial code review](https://
 
 
 
-### Reporting page  gif
-
-for use later in development of page, can use this screen shot to illustrate reports page and sorting functions. 
-
-![ReportsSorting](https://user-images.githubusercontent.com/61640483/144323938-4564e83c-3bd9-4ada-b601-683a6aea66fd.gif)
-
-
-
 
 ## Algorithms and Data Structures
 
@@ -124,6 +116,14 @@ public interface HistoryDao {
 }
 
 ```
+### Reporting page  gif
+
+for use later in development of page, can use this screen shot to illustrate reports page and sorting functions. 
+
+![ReportsSorting](https://user-images.githubusercontent.com/61640483/144323938-4564e83c-3bd9-4ada-b601-683a6aea66fd.gif)
+
+
+
 
 ### Beyond this point You'll find instructions that I'll eventually delete. 
 
