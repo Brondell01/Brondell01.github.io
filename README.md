@@ -80,6 +80,18 @@ public class History implements Serializable {
         private Date changeDate;
 ```
 
+### Database
+```java
+
+@Database(entities ={History.class},version = 1)
+public abstract class HistoryDatabase extends RoomDatabase {
+    private static final String DATABASE_NAME = "history3.db";
+
+    private static HistoryDatabase historyDatabase;
+
+    public abstract HistoryDao historyDao();
+}
+```
 
 ### DAO
 ```java
