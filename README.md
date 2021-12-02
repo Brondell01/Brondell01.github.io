@@ -20,7 +20,24 @@ For viewing the Code Review see [Selected Artifact initial code review](https://
 [![This is an image](https://user-images.githubusercontent.com/61640483/144322045-40b010b1-8696-4cdf-b4db-8f92b1c2648d.png)](https://snhu-my.sharepoint.com/:v:/r/personal/jeff_brondell_snhu_edu/Documents/Code%20Review/Video%201.mov?csf=1&web=1&e=rOG0xf)
 
 
+### Software Design and Engineering
 
+let's spend some time here talking about the increased complexity of the program with the new reporting feature. 
+
+- new activities
+- new methods
+- increased database interactions
+- new display functionality
+
+the following highlights a method that allows us to connect to the reporting page.
+```java
+
+  public void reportsPage(View view){
+        Intent reportsPage = new Intent(this, Reporting.class);
+        startActivity(reportsPage);
+    }
+
+```
 
 ## Algorithms and Data Structures
 
