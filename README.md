@@ -41,33 +41,31 @@ the following highlights a method that allows us to connect to the reporting pag
 here we see the method created to allow the list to history list object to load and expand/contract as a table object on the activity
  ```java
  
-   //method that loads the list and creates the data table.
-        public void loadList(List<History> history_list){
-
+     public void loadList(List<History> history_list){
             TableLayout report= (TableLayout) findViewById(R.id.table);
             report.setStretchAllColumns(true);
             report.bringToFront();
             report.removeAllViews();
             for (int i = 0; i < history_list.size(); i++) {
                 TableRow tr = new TableRow(getApplicationContext());
-                TextView c1 = new TextView(getApplicationContext());
-                c1.setText(history_list.get(i).getItemName());
-                TextView c2 = new TextView(getApplicationContext());
-                c2.setText(String.valueOf(history_list.get(i).getCountChange()));
-                TextView c3 = new TextView(getApplicationContext());
-                c3.setText(history_list.get(i).getChangeType());
-                TextView c4 = new TextView(getApplicationContext());
-                c4.setText(String.valueOf(format.format(history_list.get(i).getChangeDate())));
+                TextView nameColumn = new TextView(getApplicationContext());
+                nameColumn.setText(history_list.get(i).getItemName());
+                TextView changeColumn = new TextView(getApplicationContext());
+                changeColumn.setText(String.valueOf(history_list.get(i).getCountChange()));
+                TextView typeColumn = new TextView(getApplicationContext());
+                typeColumn.setText(history_list.get(i).getChangeType());
+                TextView dateColumn = new TextView(getApplicationContext());
+                dateColumn.setText(String.valueOf(format.format(history_list.get(i).getChangeDate())));
                 int finalI1 = i;
                 TextView empty = new TextView(getApplicationContext());
                 tr.addView(empty);
-                tr.addView(c1);
-                tr.addView(c2);
-                tr.addView(c3);
-                tr.addView(c4);
+                tr.addView(nameColumn);
+                tr.addView(changeColumn);
+                tr.addView(typeColumn);
+                tr.addView(dateColumn);
+
 
                 report.addView(tr);
-
               }
             }
    ```
