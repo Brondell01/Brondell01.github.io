@@ -118,6 +118,51 @@ public void bubbleSort(List<History> list, String button){
 
 ```
 
+here we will show the quicksort algorithm, but it should be noted that this is not used in the code. 
+
+Quick sort intitial algorithm which compares elements as it moves from the middle of the elements.
+```jav
+public void quickSortChange(int lowerIndex, int higherIndex){
+        int i = lowerIndex;
+        int j = higherIndex;
+        int pivotInt = lowerIndex + (higherIndex - lowerIndex)/2;
+
+        int pivot = sort_list.get(pivotInt).getCountChange();
+
+        while( i <= j) {
+            while (sort_list.get(i).getCountChange() < pivot){
+                i++;
+            }
+
+            while (sort_list.get(j).getCountChange() > pivot){
+                j--;
+            }
+
+            if(i <= j) {
+                switchItems(i, j);
+                i++;
+                j--;
+            }
+        }
+        //call quicksort recursively
+        if (lowerIndex < j){
+            quickSortChange(lowerIndex, j);
+        }
+        if (i < higherIndex){
+            quickSortChange(i, higherIndex);
+        }
+    }
+```
+
+SwitchItems() method called by the QuickSorth() algorithm to swap elements in a list. Only called when necessary by QuickSorth().
+```java
+
+ public void switchItems(int i, int j){
+        History temp = sort_list.get(i);
+        sort_list.set(i,sort_list.get(j));
+        sort_list.set(j,temp);
+        }
+```
 
 ## Database
 
