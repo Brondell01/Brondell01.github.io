@@ -125,7 +125,8 @@ The Room Persistence Librabry has been used within the Inventory Application to 
 
 ### Entity
 ```java
-
+//Entity object acts like a model of the database/history object/entities. Each field represents a  column in the database.
+// annotations are used to establish characteristics of each field.
 @Entity(tableName = "History")
 @TypeConverters(DateConverter.class)
 public class History implements Serializable {
@@ -149,11 +150,15 @@ public class History implements Serializable {
 
         @ColumnInfo(name="changeDate")
         private Date changeDate;
+
+        public History() {
+        }
 ```
 
 ### Database
 ```java
 
+//Database class initializes database and determines dao to use.
 @Database(entities ={History.class},version = 1)
 public abstract class HistoryDatabase extends RoomDatabase {
     private static final String DATABASE_NAME = "history3.db";
@@ -166,6 +171,8 @@ public abstract class HistoryDatabase extends RoomDatabase {
 
 ### DAO
 ```java
+
+//DAO (data access object) class allows a user to interact with the database via use of the provided/defined methods
 @Dao
 public interface HistoryDao {
 
@@ -188,7 +195,6 @@ public interface HistoryDao {
     public void deleteHistory(History history);
 
 }
-
 ```
 ### Reporting page  gif
 
