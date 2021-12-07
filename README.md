@@ -121,7 +121,7 @@ public void bubbleSort(List<History> list, String button){
 here we will show the quicksort algorithm, but it should be noted that this is not used in the code. 
 
 Quick sort intitial algorithm which compares elements as it moves from the middle of the elements.
-```jav
+```java
 public void quickSortChange(int lowerIndex, int higherIndex){
         int i = lowerIndex;
         int j = higherIndex;
