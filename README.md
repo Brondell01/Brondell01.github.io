@@ -72,6 +72,29 @@ here we see the method created to allow the list to history list object to load 
         }
     }
    ```
+   
+   This XML code is how the program determines not only how the table is displayed, but by utilizing the "Android:ID" tag, we get to identify the specific element to display. 
+   
+ ```xml
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_columnSpan="6"
+        app:layout_constraintTop_toBottomOf="@+id/nameSort"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TableLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/historyTable"
+         >
+
+        </TableLayout>
+
+    </ScrollView>
+ 
+ ```
 
 ## Algorithms and Data Structures
 
