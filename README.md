@@ -42,12 +42,7 @@ For viewing the Code Review see [Selected Artifact initial code review](https://
 
 ## Software Design and Engineering
 
-let's spend some time here talking about the increased complexity of the program with the new reporting feature. 
-
-- new activities
-- new methods
-- increased database interactions
-- new display functionality
+This section is designed to show a level of comfort and proficiency with utilizing both basic and more complex coding practices. For this particular artifact you will first see that a new reporting page had to be designed and built. In order to display our Inventory history we need a database connection, which we will explore later. The database will provide us with a historical list of items that have been added, altered, or removed from our Inventory application. This reporting screen will display that list and provide detailed information about the history. The storage and retrevial of data will be covered in a later section, but here you will see the work that goes into displaying that data in an efficient manner that allows users to easily understand the history of transactions.
 
 Here we see the method created that allows the list of history_list objects to load and expand/contract as a table object on the activity. This code establishes a coded approach to building a table programatically. We will pass our history_list object to this method, which is our list of all items stored on the history DB. This list will be traveresed element by element as a way to build each row of the reporting table. 
 
@@ -108,7 +103,7 @@ You'll also notice the ScrollView used here, which determines the size of the sc
  
  ```
  
- Here we see the final result of the list created for and presented on the Reporting page
+ Here we see the final result of the list created for and presented on the Reporting page. We can see here that our list is fully formed and organized by the appropriate column headers and each row is aligned with the correct data. The buttons at the top act as headers as well as sorting options, which will be covered in our next section...
  
  ![Screen Shot 2021-12-08 at 4 18 37 PM](https://user-images.githubusercontent.com/61640483/145293722-b40e7f7c-b5cc-4353-beeb-07612cd6e350.png)
 
