@@ -10,8 +10,16 @@ It's at this Point that I'll attempt to provide access to the Code Review of my 
 - [ ]  draft format and wording for showcase
 - [ ]  finalize ePortfolio
 
+
+--
+As you explore this ePortfolio please recognize that it has been desigined with a purpose. The intent here is to provide a working example of my personal skill set combined with a professional level presentation. The following sections will first introduce you to who I am as a developer, and then move on into the skill based portions of this portfolio.
+
+For this portfolio and it's different sections I've focused on updating an existing data artifact I had developed for one of my higher level SNHU courses. Throughout this page you will different enhancments I've made to a simple Inventory Application, which has been designed for an android mobile device. These enhancements will showcase skills in the areas of Software Design and Engineering, Algorithms and Data Structures, and finally Databases. The end result will hopefully show you not only a proficency withtin this targeted areas, but also a more robust and professional approach to developing skills necessary for any role within the industrty. 
+
 ## Jeff as a Programmer
-Throughout my time at SNHU I've had plenty of opportunties to produce code and develop applications. Each of my assignments was initially developed with a "pass this class" mentality. However, given more time, I've had a chance to relfect on my exprience and hone in on who I am as a developer and how my skills fit within the program as it's been defined. 
+Throughout my time at SNHU I've had plenty of opportunties to produce code and develop applications. Each of my assignments was initially developed with a "pass this class" mentality. However, given more time, I've had a chance to relfect on my exprience and hone in on who I am as a developer and how my skills fit within the program as it's been defined. This is where we discuss how I approach and solve problems, as well as apply focus on the more specific skill set I bring to the role of software developer. 
+
+As this ePortfolio will show, I have more than a competent level of skill when it comes to working with code and the different nuanced approaches that are required to get it to function. 
 
 ## Code Review
 For this artifact I've taken the time to run through a formal code review process of the Inventory Applicaton. As stated, this application provides a great opportunity to showcase various skills. The code review here will set a functional baseline for the artifact as it stands now. It's important to remember that this artifact was created for a previous course and the planned enhancements I discuss in the review will not only improve the existing code base but expand it's functionality to match the project requirements. 
