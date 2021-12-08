@@ -1,17 +1,5 @@
 ## Welcome to Brondell01's GitHub Page
 
-It's at this Point that I'll attempt to provide access to the Code Review of my initial Inventory Applicaton artifcat. The purpose of the code review was to indentify issues that needed correction and illustrate planned changes that would meet the requirements of the Capstone course final project. 
-
-###### Lis of items to complete.
-- [x]  create new functionality for reporting within application
-- [x]  draw conclusions on how new ehnacments meet basic requirements for employement
-- [x]  begin to develop IO page/explore functionality
-- [x]  clean up code for readability
-- [ ]  draft format and wording for showcase
-- [ ]  finalize ePortfolio
-
-
---
 As you explore this ePortfolio please recognize that it has been desigined with a purpose. The intent here is to provide a working example of my personal skill set combined with a professional level presentation. The following sections will first introduce you to who I am as a developer, and then move on into the skill based portions of this portfolio.
 
 For this portfolio and it's different sections I've focused on updating an existing data artifact I had developed for one of my higher level SNHU courses. Throughout this page you will different enhancments I've made to a simple Inventory Application, which has been designed for an android mobile device. These enhancements will showcase skills in the areas of Software Design and Engineering, Algorithms and Data Structures, and finally Databases. The end result will hopefully show you not only a proficeincy withtin these targeted areas, but also a more robust and professional approach to developing skills necessary for any role within the industry. 
@@ -264,43 +252,3 @@ for use later in development of page, can use this screen shot to illustrate rep
 
 ![ReportsSorting](https://user-images.githubusercontent.com/61640483/144323938-4564e83c-3bd9-4ada-b601-683a6aea66fd.gif)
 
-
-
-
-### Beyond this point You'll find instructions that I'll eventually delete. 
-
-You can use the [editor on GitHub](https://github.com/Brondell01/Brondell01.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Brondell01/Brondell01.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
