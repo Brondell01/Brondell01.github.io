@@ -14,12 +14,21 @@ It's at this Point that I'll attempt to provide access to the Code Review of my 
 --
 As you explore this ePortfolio please recognize that it has been desigined with a purpose. The intent here is to provide a working example of my personal skill set combined with a professional level presentation. The following sections will first introduce you to who I am as a developer, and then move on into the skill based portions of this portfolio.
 
-For this portfolio and it's different sections I've focused on updating an existing data artifact I had developed for one of my higher level SNHU courses. Throughout this page you will different enhancments I've made to a simple Inventory Application, which has been designed for an android mobile device. These enhancements will showcase skills in the areas of Software Design and Engineering, Algorithms and Data Structures, and finally Databases. The end result will hopefully show you not only a proficency withtin this targeted areas, but also a more robust and professional approach to developing skills necessary for any role within the industrty. 
+For this portfolio and it's different sections I've focused on updating an existing data artifact I had developed for one of my higher level SNHU courses. Throughout this page you will different enhancments I've made to a simple Inventory Application, which has been designed for an android mobile device. These enhancements will showcase skills in the areas of Software Design and Engineering, Algorithms and Data Structures, and finally Databases. The end result will hopefully show you not only a proficeincy withtin these targeted areas, but also a more robust and professional approach to developing skills necessary for any role within the industry. 
 
 ## Jeff as a Programmer
 Throughout my time at SNHU I've had plenty of opportunties to produce code and develop applications. Each of my assignments was initially developed with a "pass this class" mentality. However, given more time, I've had a chance to relfect on my exprience and hone in on who I am as a developer and how my skills fit within the program as it's been defined. This is where we discuss how I approach and solve problems, as well as apply focus on the more specific skill set I bring to the role of software developer. 
 
-As this ePortfolio will show, I have more than a competent level of skill when it comes to working with code and the different nuanced approaches that are required to get it to function. 
+As this ePortfolio will show, I have more than a competent level of skill when it comes to working with code and the different nuanced approaches that are required to get it to function.  First among all considerations is "does it work?", following this question any developer will understand and appreciate the numerous ways that any problem can be solved. As I've worked through SNHU and more specifically, through this course, i've come to recognize central tenants of my approach that aid in my success. 
+
+I've learned that a formulatic approach helps to solve any problem, and that this view is essential to developing a working code base. At its core, developing code is essentially a codified response to a problem. We are trained and presented with tools, and are then asked to apply our knowledge and expeirence in a way that best solves a given requirement. My strength as a programmer comes from that process and the steps in which a problem is defined and broken down and then solved. 
+
+you will see in the following sections that each "problem" has a different solution. The culmination of thise solutions will represent a fully functional application. As you view this portfolio please focus on the skill areas of focus, as these areas were intentionallly over developed to highlight skills and solutions. 
+
+###### Areas of Focus.
+- Software Design and Enineering
+- Data Structures and Algorithms
+- Databases
 
 ## Code Review
 For this artifact I've taken the time to run through a formal code review process of the Inventory Applicaton. As stated, this application provides a great opportunity to showcase various skills. The code review here will set a functional baseline for the artifact as it stands now. It's important to remember that this artifact was created for a previous course and the planned enhancements I discuss in the review will not only improve the existing code base but expand it's functionality to match the project requirements. 
