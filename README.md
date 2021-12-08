@@ -49,7 +49,8 @@ let's spend some time here talking about the increased complexity of the program
 - increased database interactions
 - new display functionality
 
-here we see the method created to allow the list to history list object to load and expand/contract as a table object on the activity
+Here we see the method created that allows the list of history_list objects to load and expand/contract as a table object on the activity. This code establishes a coded approach to building a table programatically. We will pass our history_list object to this method, which is our list of all items stored on the history DB. This list will be traveresed element by element as a way to build each row of the reporting table. 
+
  ```java
  
        //method that loads the list and creates the data table. creates format and aligns data to design of table.
@@ -84,8 +85,8 @@ here we see the method created to allow the list to history list object to load 
     }
    ```
    
-   This XML code is how the program determines not only how the table is displayed, but by utilizing the "Android:ID" tag, we get to identify the specific element to display. 
-   
+   This XML code is how the program determines not only how the table is displayed, but by utilizing the "Android:ID" tag, we get to identify the specific element to display from the Java coded activity. The TableLayout allows us to align the table with the page we've built here with the "wrap_content" setting. 
+You'll also notice the ScrollView used here, which determines the size of the scroll area as well as the provide instructions on what section of our XML layout should be scrollable. Here we use this almost like a wrapper around our table so that the results can be scrolled, depending on the length of the reporting list.  
  ```xml
 
     <ScrollView
