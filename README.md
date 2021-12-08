@@ -25,7 +25,7 @@ I've learned that a formulatic approach helps to solve any problem, and that thi
 
 you will see in the following sections that each "problem" has a different solution. The culmination of thise solutions will represent a fully functional application. As you view this portfolio please focus on the skill areas of focus, as these areas were intentionallly over developed to highlight skills and solutions. 
 
-###### Areas of Focus.
+#### Areas of Focus.
 - Software Design and Enineering
 - Data Structures and Algorithms
 - Databases
