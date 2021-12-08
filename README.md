@@ -108,6 +108,7 @@ here we see the method created to allow the list to history list object to load 
  ```
  
  Here we see the final result of the list created for and presented on the Reporting page
+ 
  ![Screen Shot 2021-12-08 at 4 18 37 PM](https://user-images.githubusercontent.com/61640483/145293722-b40e7f7c-b5cc-4353-beeb-07612cd6e350.png)
 
 
