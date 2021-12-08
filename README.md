@@ -39,9 +39,11 @@ For viewing the Code Review see [Selected Artifact initial code review](https://
 
 [![This is an image](https://user-images.githubusercontent.com/61640483/144322045-40b010b1-8696-4cdf-b4db-8f92b1c2648d.png)](https://snhu-my.sharepoint.com/:v:/r/personal/jeff_brondell_snhu_edu/Documents/Code%20Review/Video%201.mov?csf=1&web=1&e=rOG0xf)
 
-<details><summary>## Software Design and Engineering</summary>
+<details><summary>Software Design and Engineering</summary>
 <p>
-
+ 
+## Software Design and Engineering
+ 
 This section is designed to show a level of comfort and proficiency with utilizing both basic and more complex coding practices. For this particular artifact you will first see that a new reporting page had to be designed and built. In order to display our Inventory history we need a database connection, which we will explore later. The database will provide us with a historical list of items that have been added, altered, or removed from our Inventory application. This reporting screen will display that list and provide detailed information about the history. The storage and retrevial of data will be covered in a later section, but here you will see the work that goes into displaying that data in an efficient manner that allows users to easily understand the history of transactions.
 
 Here we see the method created that allows the list of history_list objects to load and expand/contract as a table object on the activity. This code establishes a coded approach to building a table programatically. We will pass our history_list object to this method, which is our list of all items stored on the history DB. This list will be traveresed element by element as a way to build each row of the reporting table. 
@@ -109,6 +111,7 @@ You'll also notice the ScrollView used here, which determines the size of the sc
 
 </p>
 </details>
+
 ## Algorithms and Data Structures
 
 Section will be used to highlight the code and explain the functionality of the sorting added to the report feature.  For example; let's include and describe the bubble sort here....
