@@ -31,7 +31,7 @@ you will see in the following sections that each "problem" has a different solut
 - Databases
 
 ## Code Review
-For this artifact I've taken the time to run through a formal code review process of the Inventory Applicaton. As stated, this application provides a great opportunity to showcase various skills. The code review here will set a functional baseline for the artifact as it stands now. It's important to remember that this artifact was created for a previous course and the planned enhancements I discuss in the review will not only improve the existing code base but expand it's functionality to match the project requirements. 
+For this artifact I've taken the time to run through a formal code review process of the Inventory Applicaton. As stated, this application provides a great opportunity to showcase various skills. The code review here will set a functional baseline for the artifact as it stood prior to this course. It's important to remember that this artifact was created for a previous course and the planned enhancements I discuss in the review will not only improve the existing code base but expand it's functionality to match the project requirements. 
 
 As you will see in the following videos, a review of the code provides a great opportunity to identify potential improvments and gaps in logic, as well as refocusing attention on some of the smaller details associated with creating an application. As this Inventory Application currently stands, you will see a great deal of redundant code and a general lack of clairty in design. The code review video will walk you through my thought process as I identify needed improvements and plan my next steps. 
 
@@ -48,15 +48,6 @@ let's spend some time here talking about the increased complexity of the program
 - new methods
 - increased database interactions
 - new display functionality
-
-the following highlights a method that allows us to connect to the reporting page.
-```java
-
-  public void reportsPage(View view){
-        Intent reportsPage = new Intent(this, Reporting.class);
-        startActivity(reportsPage);
-    }
-```
 
 here we see the method created to allow the list to history list object to load and expand/contract as a table object on the activity
  ```java
@@ -115,6 +106,10 @@ here we see the method created to allow the list to history list object to load 
     </ScrollView>
  
  ```
+ 
+ Here we see the final result of the list created for and presented on the Reporting page
+ ![Screen Shot 2021-12-08 at 4 18 37 PM](https://user-images.githubusercontent.com/61640483/145293722-b40e7f7c-b5cc-4353-beeb-07612cd6e350.png)
+
 
 ## Algorithms and Data Structures
 
