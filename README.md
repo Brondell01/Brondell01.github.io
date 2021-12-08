@@ -113,6 +113,8 @@ You'll also notice the ScrollView used here, which determines the size of the sc
 
 ## Algorithms and Data Structures
 
+A great deal of power in programming comes from our ability to create and manipulate data in organized and creative ways. To handle information programmatically we need to be able to structure data and access or modify it as our application requirements dictate. For this section we'll see the use of Algorithms and Data Structure that allow the inventory application to store and sort information dependent on the user's actions. This section is exteremely important since working with data covers the vast majority of effort that goes into designing and programming an application. As we move through this section we will see the sorting algorithms I've used to help sort data after it has been displayed. This "sorting" will essentially rely on our understnading of data and the position it holds within a structure. 
+
 Section will be used to highlight the code and explain the functionality of the sorting added to the report feature.  For example; let's include and describe the bubble sort here....
 ```java
 public void bubbleSort(List<History> list, String button){
