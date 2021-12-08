@@ -6,9 +6,12 @@ It's at this Point that I'll attempt to provide access to the Code Review of my 
 - [x]  create new functionality for reporting within application
 - [x]  draw conclusions on how new ehnacments meet basic requirements for employement
 - [x]  begin to develop IO page/explore functionality
-- [ ]  clean up code for readability
+- [x]  clean up code for readability
 - [ ]  draft format and wording for showcase
 - [ ]  finalize ePortfolio
+
+## Jeff as a Programmer
+Throughout my time at SNHU I've had plenty of opportunties to produce code and develop applications. Each of my assignments was initially developed with a "pass this class" mentality. However, given more time, I've had a chance to relfect on my exprience and hone in on who I am as a developer and how my skills fit within the program as it's been defined. 
 
 ## Code Review
 For this artifact I've taken the time to run through a formal code review process of the Inventory Applicaton. As stated, this application provides a great opportunity to showcase various skills. The code review here will set a functional baseline for the artifact as it stands now. It's important to remember that this artifact was created for a previous course and the planned enhancements I discuss in the review will not only improve the existing code base but expand it's functionality to match the project requirements. 
