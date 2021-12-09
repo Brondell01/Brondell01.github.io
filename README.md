@@ -14,7 +14,7 @@ I've learned that a formulaic approach helps to solve any problem, and that this
 you will see in the following sections that each "problem" has a different solution. The culmination of these solutions will represent a fully functional application. As you view this portfolio please focus on the skill areas of focus, as these areas were intentionally over developed to highlight skills and solutions. 
 
 #### Areas of Focus.
-- Software Design and Engineering
+- [Software Design and Engineering](#software-design-and-engineering)
 - Data Structures and Algorithms
 - Databases
 
