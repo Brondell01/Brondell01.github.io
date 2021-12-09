@@ -18,6 +18,9 @@ you will see in the following sections that each "problem" has a different solut
 - [Data Structures and Algorithms](#data-structures-and-algorithms)
 - [Databases](#database)
 
+Beyond focusing on these specific areas, it is important for me to mention that there are other less obvious tools and skills at play here. A great deal of communication is required in any large project. It's difficult to showcase a "team" mentality on a personal project for school, but I would be a liar if I didn't include credit to the communication skills that made this possible. While maybe not traditional, using online resources that connect developers has proven to be a very important tool for me to build this application. Insights and direction have been gleaned through multiple interactions, and it is possible for others to comment on my work through the use of my Git profile for this project. These experiences closely align with those that a developer may encounter in a professional working environment.
+
+
 ## Code Review
 For this artifact I've taken the time to run through a formal code review process of the Inventory Application. As stated, this application provides a great opportunity to showcase various skills. The code review here will set a functional baseline for the artifact as it stood prior to this course. It's important to remember that this artifact was created for a previous course and the planned enhancements I discuss in the review will not only improve the existing code base but expand its functionality to match the project requirements. 
 
