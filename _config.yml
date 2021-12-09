@@ -1,8 +1,4 @@
 theme: jekyll-theme-cayman
-classes: wide
-toc: true
-toc_label: "My Table of Contents"
-toc_icon: "cog"
-toc_sticky: true
+logo: 
 title: Welcome to Brondell01's homepage!
 description: Learning is a work in progress....
