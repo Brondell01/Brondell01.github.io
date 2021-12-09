@@ -22,7 +22,6 @@ Beyond focusing on these specific areas, it is important for me to mention that 
 
 These experiences have also exposed me to aspects of development that I initially found foreign, which includes secure coding. Fortunately, due to the strongly typed nature of Java as a development language we already have a greater level of control over aspects of our application, which extends certain protections to how our data is used. This protection is futher applied in how we interact with data in this application. As you'll see when we cover how the database is used, this application was designed to limit a user’s ability to "high-jack" our data. These two facts help illustrate how security is part of coding, and needs to be a more intential process as we design our programs.
 
-
 ## Code Review
 For this artifact I've taken the time to run through a formal code review process of the Inventory Application. As stated, this application provides a great opportunity to showcase various skills. The code review here will set a functional baseline for the artifact as it stood prior to this course. It's important to remember that this artifact was created for a previous course and the planned enhancements I discuss in the review will not only improve the existing code base but expand its functionality to match the project requirements. 
 
