@@ -215,4 +215,29 @@ public interface HistoryDao {
 }
 ```
 
+With Database created and running, we are now able to interact with data stored within it. For example; below shows how we update the history each time an item is added to the Inventory list. This updateHistory() method pulls the current maxId, increments it by one, and sets each atribute of the history object based on the change being made. This history object is then instered into the database via the use of the previously created HistoryDAO class. 
+
+```java
+public void updateHistory(View view){
+        try {
+            maxId = historyDao.getMaxId();
+        }
+        catch (IllegalStateException e) {
+            maxId = 0;
+        }
+
+        Date date = java.util.Calendar.getInstance().getTime();
+        int changeAmt = itemAdd.getItemCount();
+
+        history.setId(maxId + 1);
+        history.setItemName(itemAdd.getItemName().toString());
+        history.setCountChange(changeAmt);
+        history.setChangeType("CREATE");
+        history.setChangeDate(date);
+
+        historyDao.insertHistory(history);
+    }
+
+```
+
 
