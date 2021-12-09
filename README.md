@@ -242,4 +242,3 @@ public void updateHistory(View view){
 
 #### For more context on this project:
 Visit [My Inventory Application](https://github.com/Brondell01/InventoryApp.git)
-![image](https://user-images.githubusercontent.com/61640483/145484263-1776e9e3-d76a-421f-9e5b-b444e91e1ff8.png)
