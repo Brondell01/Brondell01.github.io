@@ -15,8 +15,8 @@ you will see in the following sections that each "problem" has a different solut
 
 #### Areas of Focus.
 - [Software Design and Engineering](#software-design-and-engineering)
-- Data Structures and Algorithms
-- Databases
+- [Data Structures and Algorithms](#data-structures-and-algorithms)
+- [Databases](#database)
 
 ## Code Review
 For this artifact I've taken the time to run through a formal code review process of the Inventory Application. As stated, this application provides a great opportunity to showcase various skills. The code review here will set a functional baseline for the artifact as it stood prior to this course. It's important to remember that this artifact was created for a previous course and the planned enhancements I discuss in the review will not only improve the existing code base but expand its functionality to match the project requirements. 
@@ -99,7 +99,7 @@ You'll also notice the ScrollView used here, which determines the size of the sc
 
 
 
-## Algorithms and Data Structures
+## Data Structures and Algorithms
 
  A great deal of power in programming comes from our ability to create and manipulate data in organized and creative ways. To handle information programmatically we need to be able to structure data and access or modify it as our application requirements dictate. For this section we'll see the use of Algorithms and Data Structure that allow the inventory application to store and sort information dependent on the user's actions. This section is extremely important since working with data covers the vast majority of effort that goes into designing and programming an application. As we move through this section, we will see the sorting algorithms I've used to help sort data after it has been displayed. This "sorting" will essentially rely on our understanding of data and the position it holds within a structure. 
 
