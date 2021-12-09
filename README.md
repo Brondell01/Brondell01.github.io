@@ -107,6 +107,7 @@ You'll also notice the ScrollView used here, which determines the size of the sc
 
  Below we will see the code of the bubbleSort() method I created to sort the the history_list object we've been provided in the earlier example. This method will traverse the list and compare each element to the susequent element. Depending on the outcome of that comparison, the elements may be "Swapped" or switched, which is the primary mechanism that allows the list to be sorted. A bubble sort is a simple method in that it only uses two "loops" to work it's way through a list of items, and swapping items only requires that on item be held temporarily until it can be placed in the appropriate location. While a bubble sort is not nearly the fastest option, it's simplicity was a great companion for sorting our smaller list of items in the Inventory app. 
 
+ As you review this code you may notice two separate comparisons, one for the "countChange", which represents the size of the inventory change. The second comparison included below is between elements "Id", which is the primary key from the database applied with each change. This "Id" essentially acts as a transaction counter, and is being used here to help order our bubble sort result by not only the change amount, but also by how recently they occured.
  
 ```java
 public void bubbleSort(List<History> list, String button){
@@ -127,51 +128,9 @@ public void bubbleSort(List<History> list, String button){
 
 ```
 
-here we will show the quicksort algorithm, but it should be noted that this is not used in the code. 
-
-Quick sort intitial algorithm which compares elements as it moves from the middle of the elements.
-```java
-public void quickSortChange(int lowerIndex, int higherIndex){
-        int i = lowerIndex;
-        int j = higherIndex;
-        int pivotInt = lowerIndex + (higherIndex - lowerIndex)/2;
-
-        int pivot = sort_list.get(pivotInt).getCountChange();
-
-        while( i <= j) {
-            while (sort_list.get(i).getCountChange() < pivot){
-                i++;
-            }
-
-            while (sort_list.get(j).getCountChange() > pivot){
-                j--;
-            }
-
-            if(i <= j) {
-                switchItems(i, j);
-                i++;
-                j--;
-            }
-        }
-        //call quicksort recursively
-        if (lowerIndex < j){
-            quickSortChange(lowerIndex, j);
-        }
-        if (i < higherIndex){
-            quickSortChange(i, higherIndex);
-        }
-    }
-```
-
-SwitchItems() method called by the QuickSorth() algorithm to swap elements in a list. Only called when necessary by QuickSorth().
-```java
-
- public void switchItems(int i, int j){
-        History temp = sort_list.get(i);
-        sort_list.set(i,sort_list.get(j));
-        sort_list.set(j,temp);
-        }
-```
+ Here is a working example of a user accessing the reports page and then selecting each of the possible sorting options to reorganize the list to their specifications. More complex data or longer lists may benefit from the use of more complex algorithms, but the small size of this application allowed us to use one of the more basic options. As mentioned earlier, each of the buttons acts as a sorting option as well as a header for the list. We will spend time exploring how the data is housed and accessed in the next section...
+ 
+![ReportsSorting](https://user-images.githubusercontent.com/61640483/144323938-4564e83c-3bd9-4ada-b601-683a6aea66fd.gif)
 
 ## Database
 
@@ -250,9 +209,5 @@ public interface HistoryDao {
 
 }
 ```
-### Reporting page  gif
 
-for use later in development of page, can use this screen shot to illustrate reports page and sorting functions. 
-
-![ReportsSorting](https://user-images.githubusercontent.com/61640483/144323938-4564e83c-3bd9-4ada-b601-683a6aea66fd.gif)
 
