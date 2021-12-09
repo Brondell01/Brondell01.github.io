@@ -240,4 +240,6 @@ public void updateHistory(View view){
 
 ```
 
+####For more context on this project:
+Visit https://github.com/Brondell01/InventoryApp.git
 
