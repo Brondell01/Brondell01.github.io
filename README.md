@@ -133,9 +133,13 @@ public void bubbleSort(List<History> list, String button){
 ![ReportsSorting](https://user-images.githubusercontent.com/61640483/144323938-4564e83c-3bd9-4ada-b601-683a6aea66fd.gif)
 
 ## Database
+ Many applications and programs are based around a fairly simple problem or question, which is "how do I manage the data and information". This question can have multiple complex answers, but at it's core we're wondering how do we store data, how will we access data, and what will we do to that data once we have it. Using a database is generally a solid approach that helps us answer the first two questions. For this application we've stored our data in the form of "transaction history" in a separate SQL database. As you'll see, we're able to interact with and access this data through the use of an Android Studio open library option called the "Room Persistence Library".
+ 
+ The Room Persistence Library has been used within the Inventory Application to allow the use of basic SQL database functions to store and manage historical data. The use of this library requires three different classes to be created and maintained. The "Entity" acts as the model and basic structure of the database table, the "Database" creates the table and links it's creation to the "Entity, and the "DAO" allows us to create SQL like commands to be executed within Java code that control interaction with data in the database. 
+ 
+ Working with data in this method allows me to showcase my own proficiency in a commonly required skill set with potential employeers. However, I'd also like to note that my experience in this final project has helped to solidify those skills into a more well rounded and working set that I can use in the future. The creation of the History database and it's many components required a level of planning that I had yet to put into practice. Designing the application around our use and reliance on this database also helped to improve my understanding for approaches and considerations that should be made when programming an application. For example; we need to consider data security when we design how a user will interact with data that is linked to a database. If a user is provided with methods that allow them to input data in a way that can then be sent to our database without protection, it is possible for them to "hi-jack" our application. With that in mind, each data element in this application is strongly typed and closley controlled. These protections will ensure that we maintain control over the application and data and not the user. 
 
-The Room Persistence Library has been used within the Inventory Application to allow the use of basic SQL database functions to store and manage historical data. The use of this library requires three different classes to be created and maintained. The "Entity" acts as the model and basic structure of the database table, the "Database" creates the table and links it's creation to the "Entity, and the "DAO" allows us to create SQL like commands to be executed within Java code that control interaction with data in the database. 
-
+ The entity object, as annotated here, acts as the model of the database object. It determines the fields of both the database and the objects that will be used to fill that database.  You will notice below that each field has annotations that help describe how that field shoudl be viewed within the database.  For example; you will notice the "Id" field is noted as the "PrimaryKey", which enables each history entry to be viewed as a separate entry into the database. 
 ### Entity
 ```java
 //Entity object acts like a model of the database/history object/entities. Each field represents a  column in the database.
@@ -167,7 +171,7 @@ public class History implements Serializable {
         public History() {
         }
 ```
-
+ The database file simply acts as a summary of the elements that will make up our database. We establish the Name of our DB, as well as the Entity Class to determine how that DB is build and the DAO class that determines how we interact with that DB. Here you will see a class that establishes all three critical elements of our database. 
 ### Database
 ```java
 
@@ -182,6 +186,7 @@ public abstract class HistoryDatabase extends RoomDatabase {
 }
 ```
 
+ The DAO class acts as a class that determines the ways in which we can engage with data on our database. Each method is annotated in a way that tells the application how we plan to use it. For example, the getHistory() method is listed as a "Query", and it is designed to retrieve all of the information from the History database and return a list or History objects to the application. We will use this list, as shown in the previous secitions, to sort and display our Inventory history data. 
 ### DAO
 ```java
 
