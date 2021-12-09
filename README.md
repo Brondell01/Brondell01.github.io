@@ -104,6 +104,7 @@ You'll also notice the ScrollView used here, which determines the size of the sc
 
 
 ## Data Structures and Algorithms
+###### [Back to Top](#jeff-as-a-programmer)
 
  A great deal of power in programming comes from our ability to create and manipulate data in organized and creative ways. To handle information programmatically we need to be able to structure data and access or modify it as our application requirements dictate. For this section we'll see the use of Algorithms and Data Structure that allow the inventory application to store and sort information dependent on the user's actions. This section is extremely important since working with data covers the vast majority of effort that goes into designing and programming an application. As we move through this section, we will see the sorting algorithms I've used to help sort data after it has been displayed. This "sorting" will essentially rely on our understanding of data and the position it holds within a structure. 
 
@@ -137,6 +138,8 @@ public void bubbleSort(List<History> list, String button){
 ![ReportsSorting](https://user-images.githubusercontent.com/61640483/144323938-4564e83c-3bd9-4ada-b601-683a6aea66fd.gif)
 
 ## Database
+###### [Back to Top](#jeff-as-a-programmer)
+
  Many applications and programs are based around a fairly simple problem or question, which is "how do I manage the data and information". This question can have multiple complex answers, but at its core we're wondering how do we store data, how will we access data, and what will we do to that data once we have it. Using a database is generally a solid approach that helps us answer the first two questions. For this application we've stored our data in the form of "transaction history" in a separate SQL database. As you'll see, we're able to interact with and access this data through the use of an Android Studio open library option called the "Room Persistence Library".
  
  The Room Persistence Library has been used within the Inventory Application to allow the use of basic SQL database functions to store and manage historical data. The use of this library requires three different classes to be created and maintained. The "Entity" acts as the model and basic structure of the database table, the "Database" creates the table and links its creation to the "Entity, and the "DAO" allows us to create SQL like commands to be executed within Java code that control interaction with data in the database. 
