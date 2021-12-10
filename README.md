@@ -250,3 +250,6 @@ public void updateHistory(View view){
 
 #### For more context on this project:
 Visit [My Inventory Application](https://github.com/Brondell01/InventoryApp.git)
+
+#### You can view the starting point for this project:
+Here [Inventory Pre-Enhancement](https://github.com/Brondell01/cs-360.git)
