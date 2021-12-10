@@ -11,7 +11,7 @@ As this ePortfolio will show, I have more than a competent level of skill when i
 
 I've learned that a formulaic approach helps to solve any problem, and that this view is essential to developing a working code base. At its core, developing code is essentially a codified response to a problem. We are trained and presented with tools, and are then asked to apply our knowledge and experience in a way that best solves a given requirement. My strength as a programmer comes from that process and the steps in which a problem is defined and broken down and then solved. 
 
-you will see in the following sections that each "problem" has a different solution. The culmination of these solutions will represent a fully functional application. As you view this portfolio please focus on the skill areas of focus, as these areas were intentionally over developed to highlight skills and solutions. 
+you will see in the following sections that each "problem" has a different solution. The culmination of these solutions will represent a fully functional application. These solutions will clearly showcase a personal level of proficiency in utilizing both common and abstract standards and practices for developing code. As you view this portfolio please focus on the skill areas of focus, as these areas were intentionally over developed to highlight skills and solutions. 
 
 #### Areas of Focus.
 - [Software Design and Engineering](#software-design-and-engineering)
